@@ -2,7 +2,7 @@
 {
   "version": 3,
   "setup": {
-    "blender_install_path": "C:/Users/Arturo/Blender",
+    "blender_install_path": "/home/ubuntu/blender",
     "pip": [
       "h5py",
       "scikit-image",
@@ -348,7 +348,7 @@
     {
       "module": "writer.ObjWriter",
       "config": {
-        "path": "C:/Users/Arturo/blends/example.blend"
+        "path": "/home/ubuntu/renders/blends/example.blend"
       }
     },
     {
