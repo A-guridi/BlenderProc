@@ -2,7 +2,7 @@
 {
   "version": 3,
   "setup": {
-    "blender_install_path": "/home_local/<env:USER>/blender/",
+    "blender_install_path": "C:/Users/Arturo/Blender",
     "pip": [
       "h5py",
       "scikit-image",
@@ -343,6 +343,12 @@
         "samples": 50,
         "render_distance": True,
         "image_type": "JPEG"
+      }
+    },
+    {
+      "module": "writer.ObjWriter",
+      "config": {
+        "path": "C:/Users/Arturo/blends/example.blend"
       }
     },
     {
